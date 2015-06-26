@@ -1,0 +1,27 @@
+.pg-row {
+  list-style: none;
+  margin: 0;
+}
+.pg-row li {
+  display: inline;
+  float: left;
+  width: 14.285714286%;
+  height: auto;
+}
+.pg-row img {
+  width: 100%;
+  height: auto;
+}
+#photo-grid-bg {
+  background-color: #4d4d4d;
+}
+@media only screen and (max-width : 767px) {
+  .pg-row li {
+    width: 25%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .pg-row li {
+    width: 50%;
+  }
+}

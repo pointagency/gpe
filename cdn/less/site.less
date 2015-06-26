@@ -1,0 +1,51 @@
+@import 'modules/font.less';
+
+@xl: 1170px;
+@lg: 1024px;
+@md: 770px;
+@sm: 480px;
+@xs: 320px;
+
+body {
+  margin:0 auto;
+  font-family:'Helvetica W01', "Helvetica", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clearfix() {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.clearfix {
+  .clearfix();
+}
+.page-width {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+@import 'modules/mixins.less';
+@import 'modules/header.less';
+@import 'modules/solace.less';
+@import 'modules/followus.less';
+@import 'modules/content1.less';
+@import 'modules/photogrid.less';
+@import 'modules/content2.less';
+@import 'modules/prefooter.less';
+@import 'modules/footer.less';
+@import 'modules/modal.less';
+
+@import 'modules/responsive-tablet-landscape.less';
+@import 'modules/responsive-tablet-portrait.less';
+@import 'modules/responsive-mobile-landscape.less';
+@import 'modules/responsive-mobile-portrait.less';
+
+
+
+@import 'modules/uber.less';

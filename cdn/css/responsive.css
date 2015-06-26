@@ -1,0 +1,1937 @@
+﻿/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+/* Styles */
+    .site-width
+    {
+        min-width:320px;
+        max-width:480px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .page-width
+    {
+        min-width:320px;
+        max-width:320px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+
+    #header-bg {
+      background: url("../images/header-480.png") 50% 50%;
+      background-repeat: no-repeat;
+      height: 115px;
+      width:100%;
+      position: relative;
+      z-index: 20;
+    }
+
+    #header-sponsor-logo
+    {
+        display:none;
+    }
+    #title-1
+    {
+        margin-top:25px;
+        font-size:15px;
+    }
+
+
+    #title-2
+    {
+        display:none;
+    }
+    #title-2-m
+    {
+        display:block;
+        margin-top:10px;
+        font-size:11px;
+    }
+    #follow-us-bg
+    {
+        position:relative;
+        background: url("../images/follow-us-bg-480.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 401px;
+        margin-top:-24px;
+        z-index:5;
+    }
+
+    #fu-title-1
+    {
+        margin-top:25px;
+        width:320px;
+        font-size:40px;
+        line-height:40px;
+        text-shadow: 1px 1px #82ca5c;
+        text-align:left;
+    }
+
+    #fu-title-2
+    {
+
+        display:none;
+    }
+    #fu-title-2-m
+    {
+        margin-top:15px;
+        width:145px;
+        text-align:left;
+        font-size:13px;
+        line-height:130%;
+        color:#2f2f2f;
+        display: block;
+    }
+    #card
+    {
+        width:138px;
+        float:right;
+        margin-top:-95px;
+        margin-right:20px;
+    }
+    #card img
+    {
+        width:138px;
+
+    }
+    #follow-us-form
+    {
+      height: 320px;
+      position: absolute;
+      top: 215px;
+      right: 0px;
+
+    }
+    #fu-form-left {
+      width: 320px;
+      padding-right:0px;
+      float: left;
+    }
+    #fu-form-left ul li
+    {
+        display:inline-block;
+        margin:7px;
+    }
+    #btn-twitter
+    {
+        background: url("../images/btn-twitter-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 86px;background-size: 100% 100%;
+
+    }
+    #btn-facebook
+    {
+        background: url("../images/btn-facebook-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 86px;background-size: 100% 100%;
+
+    }
+    #btn-instagram
+    {
+        background: url("../images/btn-instagram-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 86px;background-size: 100% 100%;
+
+    }
+    #btn-entry-count
+    {
+        display:none;
+    }
+    #content-1-bg
+    {
+        position:relative;
+        background: url("../images/content-1-bg-480.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 591px;
+        margin-top:-16px;
+        z-index:4;
+    }
+
+
+    .gpe-sm-btn
+    {
+        width:61px;
+        height:62px;
+    }
+    #c-2-sm {
+
+      margin-top: 285px;
+      z-index:100;
+    }
+    #c-2-sm ul li
+    {
+        display: inline;
+        margin:7px;
+    }
+
+    #c-2-title
+    {
+        top:355px;
+        display:block;
+        position:absolute;
+        width:280px;
+        font-size:15px;
+        text-align:center;
+    }
+    #c-2-learn
+    {
+        position:relative;
+        margin-top:470px;
+        background: url("../images/btn-learn-more-white.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 117px;
+        height: 34px;
+        background-size: 100% 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #post-copy
+    {
+          margin-top: 0px;
+        font-size:16px;
+    }
+    #win-copy
+    {
+        position:absolute;
+        font-size:58px;
+        float:none;
+        clear:both;
+        margin-left:10px;
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+        transform: rotate(-5deg);
+        top: 34px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    #gpe-title-1
+    {
+        font-size:35px;
+        margin-top:54px;
+    }
+    #gpe-title-2
+    {
+        font-size:31px;
+        margin-top:3px;
+    }
+    #gpe-title-3
+    {  font-size:15px;
+       margin-top:13px;
+    }
+    #gpe-header
+    {
+        margin-top:30px;
+    }
+    #gpe-header img
+    {
+        width:322px;
+    }
+    #gpe-this-month
+    {
+        margin-top:12px;
+    }
+    #gpe-this-month img
+    {
+        width:79px;
+        margin-top:0px;
+    }
+    #gpe-city-title
+    {
+        margin-top:10px;
+        text-align:center;
+        font-size:27px;
+
+    }
+    #photo-grid-bg
+    {
+        position:relative;
+        height:345px;
+        margin-top:-160px;
+        z-index:45;
+    }
+    #c-2-sm {
+      position: absolute;
+      margin-top: 280px;
+      z-index: 1000;
+      left: 50%;
+      margin-left: -155px;
+    }
+    #content-2-bg
+    {
+        position:relative;
+        height: 577px;
+        margin-top:-330px;
+        z-index:5;
+
+    }
+
+    #content-2-ctr
+    {
+        position:relative;
+        height: 577px;
+        padding-left:5px;
+        z-index:10;
+    }
+    #prefooter-bg
+    {
+        position:relative;
+        background: url("../images/pre-footer-bg-480.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 284px;
+    }
+
+    #prefooter-ctr
+    {
+        position:relative;
+        height: 284px;
+        padding-left:5px;
+    }
+
+    #pre-footer-title-1
+    {
+        font-size:35px;
+        margin-top:60px;
+    }
+    #pre-footer-title-2
+    {
+        font-size:36px;
+        margin-top:20px;
+    }
+
+    #footer-logo {
+      margin-top: 45px;
+      text-align: left;
+    }
+    #nav-bar {
+      width: 100%;
+      height: 30px;
+      position: absolute;
+      top: 45px;
+      background: none;
+      background-repeat: no-repeat;
+    }
+    #nav-bar ul {
+      margin-right: 0px;
+      overflow: auto;
+      width: 160px;
+    }
+    #nav-bar li {
+      height: 12px;
+      display: block;
+      float: left;
+      width:150px;
+      text-align:right;
+      padding-bottom: 12px;
+    }
+    #nav-bar li a {
+      font-size: 13px;
+      line-height: 12px;
+      padding-right: 0px;
+    }
+    #footer-line
+    {
+        height:1px;
+        width: 320px;
+        margin-top:72px;
+    }
+    #footer-text-1
+    {
+        position: absolute;
+        text-align:left;
+        font-size:11px;
+        top:65px;
+        margin-top:0px;
+        width: 320px;
+    }
+    #footer-text-2
+    {
+        position: absolute;
+        text-align:center;
+        font-size:11px;
+        top:165px;
+        margin-top:0px;
+        width:280px;
+        padding-left:25px;
+        padding-right:25px;
+
+    }
+
+
+
+    #modal-popup
+    {
+	    position: absolute;
+	    z-index: 999;
+	    width: 100%;
+	    height: 2000px;
+	    text-align: center;
+	    top: 0;
+	    left: 0;
+	    background: rgba(0,0,0,0.8);
+	    display:block;
+    }
+    #mp-main
+    {
+        position:relative;
+        min-width: 320px;
+        max-width: 480px;
+        height:850px;
+        left:0;
+        margin-left:0px;
+        top:0;
+        margin-top:0px;
+        background: url("../images/modal-qa-bg.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top:0;
+        z-index:500;
+
+
+    }
+    #mp-gpe-logo
+    {
+        position:absolute;
+        background: url("../images/gpe-logo-modal.png") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 56px;
+        width:202px;
+        top:50px;
+        left:5px;
+        z-index:10;
+    }
+    #mp-qa-logo
+    {
+        position:absolute;
+        background: url("../images/mp-qa-logo.png") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 29px;
+        width:76px;
+        top:67px;
+        right:15px;
+        z-index:10px;
+    }
+    #mp-top-line
+    {
+        position:absolute;
+        top:0px;
+        width:100%;
+        height:6px;
+        z-index:5;
+    }
+    #mp-main-copy
+    {
+
+     position:relative;
+     padding-top:120px;
+     min-width:320px;
+     max-width:320px;
+     margin:0 auto;
+     height:700px;
+    }
+    #qa-2-col
+    {
+        display:none;
+    }
+    #qa-3-col
+    {
+        display:block;
+    }
+    #mp-main-copy ul {
+      margin-right: 11px;
+      overflow:auto;
+      margin:0 auto;
+        margin-right:15px;
+        margin-left:15px;
+    }
+    #mp-main-copy ul li:first-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li:last-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li
+    {
+        float:none;
+        width:290px;
+        height:220px;
+        margin:0px;
+        text-align:left;
+        margin-right:15px;
+        margin-left:15px;
+        font-size:14px;
+    }
+    #mp-footer
+    {  position:relative;
+        background: url("../images/modal-footer.jpg") 50% 50%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 88px;
+        min-width:320px;
+        max-width:480px;
+        bottom:0px;
+        z-index:15;
+    }
+    #mp-footer-ctr
+    {
+            position:relative;
+            min-width:320px;
+            max-width:320px;
+            margin:0 auto;
+            height:100%;
+    }
+    #mp-arrow
+    {
+        position:relative;
+        background: url("../images/modal-arrow.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width:24px;
+        margin-top:35px;
+        margin-left:24px;
+        float:left;
+    }
+
+    #mp-terms
+    {
+        position:relative;
+        float:left;
+        text-align:left;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-left:20px;
+        font-size:13px;
+        display:none;
+    }
+
+    #mp-terms-m
+    {
+        display:block;
+    }
+
+    #mp-close
+    {
+    position:relative;
+        float:right;
+        text-align:right;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-right:20px;
+        font-size:13px;
+    }
+
+    #mp-close a
+    {
+        text-decoration:none;
+        font-size:13px;
+    }
+    .mp-q-copy
+    {
+        font-weight:bold;
+        font-size:14px;
+    }
+    .mp-a-copy
+    {
+        font-size:14px;
+    }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 481px) and (max-width : 767px) {
+/* Styles */
+    .site-width
+    {
+        min-width:481px;
+        max-width:768px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .page-width
+    {
+        min-width:481px;
+        max-width:481px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+    #header-bg {
+      background: url("../images/header-768.png") 50% 50%;
+      background-repeat: no-repeat;
+      height: 146px;
+      width:100%;
+      position: relative;
+      z-index: 20;
+    }
+
+    #header-sponsor-logo
+    {
+        display:none;
+    }
+    #title-1
+    {
+        margin-top:45px;
+        font-size:20px;
+        margin-left: 5px;
+    }
+
+    #title-2
+    {
+        display:none;
+    }
+    #title-2-m
+    {
+        display:block;
+        margin-top:5px;
+        font-size:14px;
+    }
+
+    #follow-us-bg
+    {
+        position:relative;
+        background: url("../images/follow-us-bg-768.png") 50% 50%;
+        background-repeat: no-repeat;
+        height:567px;
+        margin-top:-25px;
+        z-index:5;
+    }
+
+    #fu-title-1
+    {
+        margin-top:35px;
+        width:481px;
+        font-size:64px;
+        line-height:64px;
+        text-shadow: 1px 1px #82ca5c;
+        text-align:left;
+    }
+
+    #fu-title-2
+    {
+        margin-top:15px;
+        width:270px;
+        text-align:left;
+        font-size:17px;
+        line-height:130%;
+    }
+    #card
+    {
+        width:164px;
+        float:right;
+        margin-top:-95px;
+        margin-right:20px;
+    }
+    #card img
+    {
+        width:164px;
+
+    }
+    #follow-us-form
+    {
+      height: 481px;
+      position: abs320olute;
+      top: 290px;
+      right: 0px;
+
+    }
+    #fu-form-left {
+      width: 481px;
+      padding-right:0px;
+      float: left;
+    }
+    #fu-form-left ul li
+    {
+        display:inline-block;
+        margin:7px;
+    }
+    #btn-twitter
+    {
+        background: url("../images/btn-twitter-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 139px;
+        height: 138px;background-size: 100% 100%;
+
+    }
+    #btn-facebook
+    {
+        background: url("../images/btn-facebook-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 139px;
+        height: 138px;background-size: 100% 100%;
+
+    }
+    #btn-instagram
+    {
+        background: url("../images/btn-instagram-off-m.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 139px;
+        height: 138px;background-size: 100% 100%;
+
+    }
+    #btn-entry-count
+    {
+        display:none;
+    }
+
+    #content-1-bg
+    {
+        position:relative;
+        background: url("../images/content-1-bg-768.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 792px;
+        margin-top:-21px;
+        z-index:4;
+    }
+
+
+    #gpe-title-1
+    {
+        font-size:40px;
+        margin-top:55px;
+    }
+    #gpe-title-2
+    {
+        font-size:50px;
+        margin-top:5px;
+    }
+    #gpe-title-3
+    {  font-size:18px;
+       margin-top:13px;
+    }
+    #gpe-header
+    {
+        margin-top:45px;
+    }
+    #gpe-header img
+    {
+        width:456px;
+    }
+    #gpe-this-month
+    {
+        margin-top:7px;
+    }
+    #gpe-this-month img
+    {
+        width:108px;
+        margin-top:0px;
+    }
+    #gpe-city-title
+    {
+        margin-top:25px;
+        text-align:center;
+        font-size:31px;
+
+    }
+
+
+    #photo-grid-bg
+    {
+        position:relative;
+        height:350px;
+        margin-top:-250px;
+        z-index:45;
+    }
+
+    #c-2-sm {
+      position: absolute;
+      margin-top: 275px;
+      z-index: 1000;
+      left: 50%;
+      margin-left: -215px;
+    }
+
+   .gpe-sm-btn
+    {
+        width:71px;
+        height:72px;
+    }
+    #c-2-sm ul li
+    {
+        display: inline;
+        margin:13px;
+    }
+
+    #c-2-title
+    {
+        top:360px;
+        display:block;
+        position:absolute;
+        width:481px;
+        font-size:15px;
+    }
+    #post-copy
+    {
+        font-size:18px;
+        margin-top: 14px;
+    }
+    #win-copy
+    {
+
+        font-size:41px;
+        margin-top: -2px;
+    }
+
+    #c-2-learn
+    {
+        margin-top:424px;
+    }
+    #content-2-bg
+    {
+        position:relative;
+        height: 540px;
+        margin-top:-350px;
+        z-index:5;
+
+    }
+
+    #content-2-ctr
+    {
+        position:relative;
+        height: 540px;
+        padding-left:5px;
+        z-index:10;
+    }
+
+    #prefooter-bg
+    {
+        position:relative;
+        background: url("../images/pre-footer-bg-786.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 244px;
+    }
+
+    #prefooter-ctr
+    {
+        position:relative;
+        height: 284px;
+        padding-left:5px;
+    }
+
+    #pre-footer-title-1
+    {
+        font-size:44px;
+        line-height:44px;
+        margin-top:50px;
+    }
+    #pre-footer-title-2
+    {
+        font-size:38px;
+        line-height:38px;
+        margin-top:10px;
+    }
+
+    #footer-logo {
+      margin-top: 45px;
+      text-align: left;
+    }
+    #nav-bar {
+      width: 100%;
+      height: 30px;
+      position: absolute;
+      top: 50px;
+      background: none;
+      background-repeat: no-repeat;
+    }
+    #nav-bar ul {
+      margin-right: 0px;
+      overflow: auto;
+      width: 481px;
+    }
+    #nav-bar li {
+      height: 12px;
+      display: block;
+      float: right;
+      padding-bottom: 12px;
+    }
+    #nav-bar li a {
+      font-size: 13px;
+      line-height: 12px;
+      text-decoration: none;
+      padding-right:0px;
+    }
+    #footer-line
+    {
+        height:1px;
+        width: 481px;
+        margin-top:72px;
+    }
+    #footer-text-1 {
+      position: absolute;
+      text-align: right;
+      font-size: 11px;
+      top: 195px;
+      margin-top: 0px;
+      width: 481px;
+    }
+    #footer-text-2
+    {
+      position: absolute;
+      text-align: left;
+      font-size: 11px;
+      top: 165px;
+      margin-top: 0px;
+      width: 240px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+
+
+    #modal-popup
+    {
+	    position: f;
+	    z-index: 999;
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	    top: 0;
+	    left: 0;
+	    background: rgba(0,0,0,0.8);
+	    display:block;
+    }
+    #mp-main
+    {
+        position:relative;
+        min-width: 480px;
+        max-width: 768px;
+        height:730px;
+        left:0;
+        margin-left:0px;
+        top:0;
+        margin-top:0px;
+        background: url("../images/modal-qa-bg.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top:0;
+        z-index:500;
+
+
+    }
+    #mp-gpe-logo
+    {
+        position:absolute;
+        background: url("../images/gpe-logo-modal.png") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 87px;
+        width:317px;
+        top:50px;
+        left:0px;
+        z-index:10;
+    }
+    #mp-qa-logo
+    {
+        position:absolute;
+        background: url("../images/mp-qa-logo.png") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 39px;
+        width:101px;
+        top:70px;
+        right:15px;
+        z-index:10px;
+    }
+    #mp-top-line
+    {
+        position:absolute;
+        top:0px;
+        width:100%;
+        height:6px;
+        z-index:5;
+    }
+    #mp-main-copy
+    {
+
+     position:relative;
+     padding-top:185px;
+     min-width:480px;
+     max-width:480px;
+     margin:0 auto;
+     height:450px;
+    }
+    #qa-2-col
+    {
+        display:block;
+    }
+    #qa-3-col
+    {
+        display:none;
+    }
+    #mp-main-copy ul {
+      margin-right: 11px;
+      overflow:auto;
+      margin:0 auto;
+        margin-right:15px;
+        margin-left:15px;
+    }
+    #mp-main-copy ul li:first-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li:last-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li
+    {
+        float:left;
+        width:205px;
+        height:270px;
+        margin:0px;
+        text-align:left;
+        margin-right:15px;
+        margin-left:15px;
+        font-size:14px;
+    }
+    #mp-footer
+    {  position:relative;
+        background: url("../images/modal-footer.jpg") 50% 50%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 88px;
+        min-width:480px;
+        max-width:768px;
+        bottom:0px;
+        z-index:15;
+    }
+    #mp-footer-ctr
+    {
+            position:relative;
+            min-width:480px;
+            max-width:480px;
+            margin:0 auto;
+            height:100%;
+    }
+    #mp-arrow
+    {
+        position:relative;
+        background: url("../images/modal-arrow.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width:24px;
+        margin-top:35px;
+        margin-left:24px;
+        float:left;
+    }
+
+    #mp-terms
+    {
+        position:relative;
+        float:left;
+        text-align:left;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-left:20px;
+        font-size:13px;
+        display:none;
+    }
+
+    #mp-terms-m
+    {
+        display:block;
+    }
+
+    #mp-close
+    {
+    position:relative;
+        float:right;
+        text-align:right;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-right:20px;
+        font-size:13px;
+    }
+
+    #mp-close a
+    {
+        text-decoration:none;
+        font-size:13px;
+    }
+    .mp-q-copy
+    {
+        font-weight:bold;
+        font-size:14px;
+    }
+    .mp-a-copy
+    {
+        font-size:14px;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 767px) and (max-width : 1024px) {
+/* Styles */
+
+
+    .site-width
+    {
+        min-width:769px;
+        max-width:1024px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .page-width
+    {
+        min-width:769px;
+        max-width:769px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+    .txt-grey-m
+    {
+        font-size:16px;
+
+    }
+
+    .txt-grey-l
+    {
+        font-size:16px;
+
+    }
+
+    .txt-green-james
+    {
+
+        font-size:41px;
+    }
+    #header-bg {
+      background: url("../images/header-1366.png") 50% 50%;
+      background-repeat: no-repeat;
+      height: 160px;
+      width:100%;
+      position: relative;
+      z-index: 20;
+    }
+
+    #header-sponsor-logo
+    {
+        position:absolute;
+        background: url("../images/aquire-logo-159.png") 50% 50%;
+        background-repeat: no-repeat;
+       /*/% height: 202px;*/
+        width: 159px;
+        height:78px;
+        top: 30px;
+        right: 140px;
+        z-index:5;
+    }
+    #title-1
+    {
+        margin-top:30px;
+        font-family: "ag_book_roundedmedium", sans-serif;
+        font-size:24px;
+    }
+
+    #title-2
+    {
+        margin-top:10px;
+    }
+
+    #follow-us-bg
+    {
+        position:relative;
+        background: url("../images/follow-us-bg-1024.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 463px;
+        margin-top:-46px;
+        z-index:5;
+    }
+    #fu-title-1
+    {
+        margin-top:50px;
+        line-height:50px;
+        width:450px;
+        font-size:52px;
+        text-shadow: 3px 3px #82ca5c;
+        text-align:left;
+    }
+    #fu-title-2
+    {
+        margin-top:25px;
+        width:450px;
+        text-align:left;
+    }
+
+    #follow-us-form
+    {
+        height:268px;
+        position:absolute;
+        top:62px;
+        right:15px;
+    }
+
+    #fu-form-left
+    {
+        width:216px;
+        padding-right:7px;
+        float:left;
+    }
+    .btn-sm-fu
+    {
+        width:216px;
+    }
+
+    #fu-form-left ul li
+    {
+        margin-bottom:9px;
+    }
+    #btn-twitter
+    {
+        background: url("../images/btn-twitter-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 216px;
+        height:59px;
+        background-size: 100% 100%;
+
+    }
+    #btn-facebook
+    {
+        background: url("../images/btn-facebook-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 216px;
+        height:59px;background-size: 100% 100%;
+
+    }
+    #btn-instagram
+    {
+        background: url("../images/btn-instagram-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 216px;
+        height:59px;background-size: 100% 100%;
+
+    }
+    #btn-entry-count
+    {
+        background: url("../images/entries-0x.png") 50% 50%;
+        background-repeat: no-repeat;
+        width:99px;
+        height:196px;
+        background-size: 100% 100%;
+    }
+    #card
+    {
+
+        text-align:left;
+        margin-top:45px;
+    }
+    #card img
+    {
+        width:216px;
+
+    }
+
+    #content-1-bg
+    {
+        position:relative;
+        background: url("../images/content-1-bg-1024.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 1020px;
+        margin-top:-21px;
+        z-index:4;
+    }
+
+    #content-1-ctr
+    {
+        position:relative;
+        height: 607px;
+        padding-left:5px;
+        z-index:10;
+    }
+    .gpe-sm-btn
+    {
+        width:71px;
+        height:72px;
+    }
+
+    #gpe-title-1
+    {
+        font-size:40px;
+        margin-top:110px;
+    }
+    #gpe-title-2
+    {   font-size:60px;
+        margin-top:-2px;
+    }
+    #gpe-title-3
+    {  font-size:16px;
+       margin-top:7px;
+    }
+
+    #gpe-header
+    {
+        margin-top:35px;
+    }
+    #gpe-header img
+    {
+        width:300px;
+    }
+    #gpe-this-month
+    {
+        margin-top:15px;
+    }
+    #gpe-this-month img
+    {
+        width:90px;
+        margin-top:0px;
+    }
+    #gpe-city-title
+    {
+        margin-top:16px;
+        text-align:center;
+
+    }
+
+
+    #c-2-learn
+    {
+        margin-top:523px;
+
+        background: url("../images/btn-learn-more.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 92px;
+        height: 26px;
+        background-size: 100% 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #c-2-learn img
+    {
+        width:92px;
+    }
+    #c-2-sm {
+
+      margin-top: 372px;
+      margin-left: -210px;
+    }
+    #c-2-sm ul li
+    {
+        display: inline;
+        margin:12px;
+    }
+    #c-2-title
+    {
+        top:460px;
+        width: 430px;
+    }
+    #post-copy
+    {
+        font-size:18px;
+        margin-top: 14px;
+    }
+    #win-copy
+    {
+
+        margin-top: -2px;
+    }
+    #photo-grid-bg
+    {
+        position:relative;
+        height:465px;
+        margin-top:-460px;
+        z-index:45;
+    }
+
+    #content-2-bg
+    {
+        position:relative;
+        height: 634px;
+        margin-top:-465px;
+        z-index:5;
+
+    }
+
+    #content-2-ctr
+    {
+        position:relative;
+        height: 634px;
+        padding-left:5px;
+        z-index:10;
+    }
+    #prefooter-bg
+    {
+        position:relative;
+        background: url("../images/pre-footer-bg-1024.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 227px;
+    }
+
+    #prefooter-ctr
+    {
+        position:relative;
+        height: 227px;
+        padding-left:5px;
+    }
+
+    #pre-footer-title-1
+    {
+        font-size:44px;
+        margin-top:65px;
+        text-align:center;
+    }
+    #pre-footer-title-2
+    {
+        font-size:30px;
+        margin-top:10px;
+        text-align:center;
+    }
+
+    #footer-bg
+    {
+        height: 335px;
+    }
+
+    #footer-logo {
+      margin-top: 45px;
+      text-align: left;
+    }
+    #nav-bar {
+      width: 100%;
+      height: 71px;
+      position: absolute;
+      top: 20px;
+      background: none;
+      background-repeat: no-repeat;
+    }
+    #nav-bar ul {
+      margin-right: 11px;
+      overflow: auto;
+      width: 700px;
+      margin: 0 auto;
+    }
+    #nav-bar li a {
+      font-size: 11px;
+      line-height: 71px;
+      text-decoration: none;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    #footer-line
+    {
+        height:1px;
+        background-color: #b6b6b6;
+        width: 740px;
+        margin-top:30px;
+    }
+    #footer-text-1
+    {
+        position: absolute;
+        text-align:right;
+        font-size:11px;
+        top:145px;
+        margin-top:0px;
+        width: 740px;
+    }
+    #footer-text-2
+    {
+        position: absolute;
+        text-align:left;
+        font-size:11px;
+        top:130px;
+        margin-top:0px;
+        width:50%;
+
+    }
+
+    #modal-popup
+    {
+	    position: absolute;
+	    z-index: 999;
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	    top: 0;
+	    left: 0;
+	    background: rgba(0,0,0,0.8);
+	    display:block;
+    }
+    #mp-main
+    {
+        position:relative;
+        min-width: 768px;
+        max-width: 1024px;
+        height:624px;
+        left:0;
+        margin-left:0px;
+        top:0;
+        margin-top:0px;
+        /*
+    top:50%;*/
+    /*margin-top:-384px;*/
+
+        background: url("../images/modal-qa-bg.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top:0;
+        z-index:500;
+
+
+    }
+    #mp-gpe-logo
+    {
+        position:absolute;
+        background: url("../images/gpe-logo-modal.png") 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 80px;
+        width:292px;
+        top:50px;
+        left:5px;
+        z-index:10;
+    }
+    #mp-qa-logo
+    {
+        position:absolute;
+        background: url("../images/mp-qa-logo.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 42px;
+        width:109px;
+        top:88px;
+        right:80px;
+        z-index:10px;
+    }
+    #mp-top-line
+    {
+        position:absolute;
+        top:0px;
+        width:100%;
+        height:6px;
+        z-index:5;
+    }
+    #mp-main-copy
+    {
+
+     position:relative;
+     padding-top:200px;
+     min-width:768px;
+     max-width:768px;
+     margin:0 auto;
+     height:400px;
+    }
+    #mp-main-copy ul {
+      margin-right: 11px;
+      overflow:auto;
+      margin:0 auto;
+        margin-right:25px;
+        margin-left:23px;
+    }
+    #mp-main-copy ul li:first-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li:last-child
+    {
+        margin-left:0px;
+    }
+    #mp-main-copy ul li
+    {
+
+
+        float:left;
+        width:220px;
+        height:270px;
+        margin:0px;
+        display: inline;
+        text-align:left;
+        margin-right:15px;
+        margin-left:15px;
+        font-size:14px;
+    }
+    #mp-footer
+    {
+      position: relative;
+      background: url("../images/modal-footer.jpg") 50% 50%;
+      background-repeat: no-repeat;
+      height: 88px;
+      min-width: 768px;
+      max-width: 1032px;
+      bottom: 88px;
+      z-index: 15;
+    }
+    #mp-footer-ctr
+    {
+            position:relative;
+            min-width:768px;
+            max-width:768px;
+            margin:0 auto;
+            height:100%;
+    }
+    #mp-arrow
+    {
+        position:relative;
+        background: url("../images/modal-arrow.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width:24px;
+        margin-top:35px;
+        margin-left:24px;
+        float:left;
+    }
+
+    #mp-terms
+    {
+        position:relative;
+        float:left;
+        text-align:left;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-left:20px;
+        font-size:13px;
+    }
+
+    #mp-terms-m
+    {
+        display:none;
+    }
+
+    #mp-close
+    {
+    position:relative;
+        float:right;
+        text-align:right;
+        margin-top:35px;
+        height: 24px;
+        line-height: 24px;
+        margin-right:20px;
+        font-size:13px;
+    }
+
+    #mp-close a
+    {
+        text-decoration:none;
+        font-size:13px;
+    }
+    .mp-q-copy
+    {
+        font-weight:bold;
+        font-size:14px;
+    }
+    .mp-a-copy
+    {
+        font-size:14px;
+     }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1170px) {
+/* Styles */
+    .site-width
+    {
+        min-width:1025px;
+        max-width:1388px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .page-width
+    {
+        min-width:1025px;
+        max-width:1025px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+
+    #header-bg {
+      background: url("../images/header-1366.png") 50% 50%;
+      background-repeat: no-repeat;
+      height: 160px;
+      width:100%;
+      position: relative;
+      z-index: 20;
+    }
+
+    #header-sponsor-logo
+    {
+        position:absolute;
+        background: url("../images/aquire-logo-167.png") 50% 50%;
+        background-repeat: no-repeat;
+       /*/% height: 202px;*/
+        width: 167px;
+        height:79px;
+        top: 30px;
+        right: 138px;
+        z-index:5;
+    }
+    #title-1
+    {
+        margin-top:40px;
+        font-family: "ag_book_roundedmedium", sans-serif;
+        font-size:24px;
+    }
+
+    #title-2
+    {
+        margin-top:2px;
+        font-size:16px;
+    }
+
+
+    #follow-us-bg
+    {
+        position:relative;
+        background: url("../images/follow-us-bg-1366.png") 50% 50%;
+        background-repeat: no-repeat;
+        height: 542px;;
+        margin-top:-46px;
+        z-index:5;
+    }
+    #fu-title-1
+    {
+        margin-top:70px;
+        line-height:60px;
+        width:500px;
+        font-size:63px;
+        text-shadow: 3px 3px #82ca5c;
+        text-align:left;
+    }
+    #fu-title-2
+    {
+        margin-top:30px;
+        width:500px;
+        font-size:17px;
+        text-align:left;
+    }
+
+    #follow-us-form
+    {
+        height:268px;
+        position:absolute;
+        top:62px;
+        right:15px;
+    }
+
+    #fu-form-left
+    {
+        width:268px;
+        padding-right:7px;
+        float:left;
+    }
+    .btn-sm-fu
+    {
+        width:216px;
+    }
+
+    #fu-form-left ul li
+    {
+        margin-bottom:12px;
+    }
+    #btn-twitter
+    {
+        background: url("../images/btn-twitter-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 268px;
+        height:74px;
+        background-size: 100% 100%;
+
+    }
+    #btn-facebook
+    {
+        background: url("../images/btn-facebook-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 268px;
+        height:74px;
+        background-size: 100% 100%;
+
+    }
+    #btn-instagram
+    {
+        background: url("../images/btn-instagram-off.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 268px;
+        height:74px;
+        background-size: 100% 100%;
+
+    }
+    #btn-entry-count
+    {
+        background: url("../images/entries-0x.png") 50% 50%;
+        background-repeat: no-repeat;
+        width:119px;
+        height:244px;
+        background-size: 100% 100%;
+    } /* */
+    #card
+    {
+
+        text-align:left;
+        margin-top:45px;
+    }
+    #card img
+    {
+        width:261px;
+
+    }
+
+    #content-1-bg
+    {
+        position:relative;
+        background: url("../images/content-1-bg-1366.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 1274px;
+        margin-top:-21px;
+        z-index:4;
+    }
+
+    #content-1-ctr
+    {
+        position:relative;
+        height: 1274px;
+        padding-left:5px;
+        z-index:10;
+    }
+    .gpe-sm-btn
+    {
+        width:71px;
+        height:72px;
+    }
+
+    #gpe-title-1
+    {
+        font-size:40px;
+        margin-top:150px;
+    }
+    #gpe-title-2
+    {
+        margin-top:2px;
+    }
+    #gpe-title-3
+    {  font-size:15px;
+       margin-top:7px;
+    }
+
+    #gpe-header
+    {
+        margin-top:35px;
+    }
+    #gpe-header img
+    {
+        width:300px;
+    }
+    #gpe-this-month
+    {
+        margin-top:15px;
+    }
+    #gpe-this-month img
+    {
+        width:90px;
+        margin-top:12px;
+    }
+    #gpe-city-title
+    {
+        margin-top:16px;
+        text-align:center;
+        font-size:24px;
+
+    }
+
+    #photo-grid-bg
+    {
+        position:relative;
+        height:540px;
+        margin-top:-661px;
+        z-index:45;
+    }
+
+    #content-2-bg
+    {
+        position:relative;
+        height: 783px;
+        margin-top:-540px;
+        z-index:5;
+
+    }
+
+    #content-2-ctr
+    {
+        position:relative;
+        height: 783px;
+        padding-left:5px;
+        z-index:10;
+    }
+/**/
+    #c-2-sm {
+
+      margin-top: 467px;
+      margin-left: -210px;
+    }
+    #c-2-sm ul li
+    {
+        display: inline;
+        margin:12px;
+    }
+    #c-2-title
+    {
+        top:555px;
+        width: 460px;
+    }
+    #post-copy
+    {
+        font-size:18px;
+        margin-top: 14px;
+    }
+    #win-copy
+    {
+
+        margin-top: -2px;
+    }
+    #c-2-learn
+    {
+        margin-top:625px;
+
+        background: url("../images/btn-learn-more.png") 50% 50%;
+        background-repeat: no-repeat;
+        width: 92px;
+        height: 26px;
+        background-size: 100% 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #c-2-learn img
+    {
+        width:92px;
+    }
+
+    #prefooter-bg
+    {
+        position:relative;
+        background: url("../images/pre-footer-bg-1366.jpg") 50% 50%;
+        background-repeat: no-repeat;
+        height: 227px;
+    }
+    #prefooter-ctr
+    {
+        position:relative;
+        height: 227px;
+        padding-left:5px;
+    }
+
+    #pre-footer-title-1
+    {
+        font-size:44px;
+        margin-top:65px;
+        text-align:center;
+    }
+    #pre-footer-title-2
+    {
+        font-size:36px;
+        margin-top:10px;
+        text-align:center;
+    }
+}

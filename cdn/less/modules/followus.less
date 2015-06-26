@@ -1,0 +1,172 @@
+.ticket-iframe {
+  border: none;
+  width: 480px;
+  height: 620px;
+  z-index: 10000;
+  margin-right: -50px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ticket-iframe {
+      width: 370px;
+      margin-right: -70px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .ticket-iframe {
+      width: 500px;
+    }
+}
+@media (max-width: 480px) {
+    .ticket-iframe {
+      width: 320px;
+    }
+}
+
+#follow-us-bg {
+    background: url("../images/follow-us-bg-1171.png") 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 711px;
+    //margin-top:-56px;
+    position: relative;
+    z-index:5;
+}
+#follow-us-ctr {
+  padding-top: 96px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#fu-title-1
+{
+    width:640px;
+    font-family: "ag_book_roundedmedium", sans-serif;
+    color:#ffffff;
+    font-size:88px;
+    line-height:86px;
+    text-shadow: 3px 3px #82ca5c;
+    margin-left:10px;
+    margin-bottom: 37px;
+    letter-spacing: -1.7px;
+}
+
+#fu-title-2
+{
+    margin-top: 37px;
+    width: 560px;
+    color: #2f2f2f;
+    margin-left: 12px;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+}
+#fu-title-2-m
+{
+    display:none;  margin-left: 15px;
+}
+#card
+{
+    margin-left: 6px;
+  margin-top: 52px;
+}
+
+#follow-us-form
+{
+    height:268px;
+    position:absolute;
+    top:117px;
+    right: -5px;
+}
+#fu-form-left
+{
+    width:268px;
+    padding-right:12px;
+    float:left;
+}
+#fu-form-left ul
+{
+    list-style-type: none;
+    margin-left:0px;
+    margin:0px;
+    display: block;
+    padding-left: 0px;
+    -webkit-padding-start:0px;
+}
+#fu-form-left ul li
+{
+    margin-bottom:12px;
+}
+#fu-form-right
+{
+    float:left;
+}
+#btn-twitter,
+#btn-twitter .hover
+{
+    background: url("../images/twitter-btn-long.png") 50% 50%;
+}
+#btn-facebook,
+#btn-facebook .hover
+{
+    background: url("../images/facebook-btn-long.png") 50% 50%;
+
+}
+#btn-instagram,
+#btn-instagram .hover
+{
+    background: url("../images/instagram-btn-long.png") 50% 50%;
+}
+
+
+#btn-twitter,
+#btn-facebook,
+#btn-instagram {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 267px;
+    height: 73px;
+    cursor: pointer!important;
+    position: relative;
+    .hover {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      cursor: pointer!important;
+      .opacity(0);
+      .transition(opacity 0.2s ease);
+    }
+    &:hover {
+      .hover {
+        .opacity(1);
+        background-position: top center;
+      }
+    }
+}
+
+#btn-entry-count
+{
+    background: url("../images/entries-0x.png") 50% 50%;
+    background-repeat: no-repeat;
+    width:119px;
+    height:243px;
+    background-size: 100% 100%;
+}
+
+.help-text-arrow {
+  background: url("../images/plus-1024-769.png");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 320px;
+  height: 96px;
+  left: 50%;
+  position: relative;
+  margin-left: 269px;
+  margin-bottom: -34px;
+}

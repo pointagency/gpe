@@ -1,0 +1,297 @@
+#uber-banner {
+	height: 329px;
+	background-image: url(../images/uber/uber-bg.jpg);
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	position: relative;
+	overflow: hidden;
+	@media (max-width : @xl) {
+		height: 220px;
+		background-image: url(../images/uber/uber-bg-1170.jpg);
+	}
+
+	@media (max-width : @lg) {
+		height: 178px;
+	}
+
+	@media (max-width : @md) {
+		background-image: url(../images/uber/uber-bg-768.jpg);
+	}
+
+	@media (max-width : @sm) {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 99999;
+		height: auto;
+		width: auto;
+		padding: 15px;
+		background: none;
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #fff;
+			.opacity(0.7);
+		}
+	}
+}
+#uber-banner-container {
+	width: 1140px;
+	padding-left: 0px;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	@media (max-width : @xl) {
+		width: 994px;
+	}
+	@media (max-width : @lg) {
+		width: 739px;
+	}
+	@media (max-width : @md) {
+		width: 466px;
+	}
+	@media (max-width : @sm) {
+		width: auto;
+		height: auto;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		right: 15px;
+		bottom: 15px;
+		overflow: auto;
+		background-image: url(../images/uber/uber-bg-480.jpg);
+		background-repeat: repeat-y;
+		background-size: 100% auto;
+	}
+}
+#uber-banner-logo {
+	background-image: url(../images/uber/uber-logo.png);
+	width: 100px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	position: relative;
+	top: 25px;
+	@media (max-width : @xl) {
+  		top: 20px;
+		height: 12px;
+		width: auto;
+	}
+	@media (max-width : @lg) {
+		top: 16px;
+		height: 11px;
+	}
+	@media (max-width : @md) {
+		top: 15px;
+		height: 9px;
+	}
+	@media (max-width : @sm) {
+		position: fixed;
+		z-index: 10000;
+		width: 100px;
+		height: 14px;
+		margin-top: 6%;
+		left: 45px;
+	}
+}
+#uber-banner-heading {
+	position: relative;
+	margin-bottom: 17px;
+	float: left;
+	@media (max-width: @xl) {
+  		width: 296px;
+	}
+}
+#uber-banner-heading-1 {
+	height: 38px;
+	position: relative;
+	top: 5px;
+	margin-right: 15px;
+
+	@media (max-width : @xl) {
+		height: 34px;
+		position: relative;
+		top: 5px;
+  		margin-bottom: 14px;
+	}
+
+	@media (max-width: @lg) {
+		height: 27px;
+  		margin-bottom: 11px;
+	}
+	@media (max-width : @md) {
+		height: 17px;
+		top: 2px;
+		margin-bottom: 0px;
+	}
+}
+#uber-banner-heading-2 {
+	height: 38px;
+	position: relative;
+	top: 5px;
+
+	@media (max-width : @xl) {
+		height: 34px;
+	}
+	@media (max-width : @lg) {
+		height: 27px;
+	}
+	@media (max-width : @md) {
+		height: 17px;
+		top: 2px;
+	}
+}
+#uber-banner-text {
+	padding-top: 99px;
+
+	@media (max-width : @xl) {
+		padding-top: 73px;
+	}
+	@media (max-width : @lg) {
+		padding-top: 63px;
+	}
+	@media (max-width : @sm) {
+		padding-top: 0px;
+	}
+}
+#uber-banner-body {
+	max-width: 360px;
+	width: 100%;
+	color: #fff;
+	font-size: 15.5px;
+	line-height: 23.4px;
+	letter-spacing: 0.02em;
+	margin-bottom: 11px;
+	position: relative;
+
+	@media (max-width: @xl) {
+		display: none;
+	}
+}
+#uber-banner-phone {
+	color: #c5c5c5;
+	font-size: 13.48px;
+	letter-spacing: 0.02em;
+	&:before {
+		content: "Learn more - call ";
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		&:hover {
+			color: #1FBAD6;
+		}
+	}
+	@media (max-width: @xl) {
+		font-size: 15px;
+		position: relative;
+		top: 61px;
+		left: 7px;
+		&:before {
+			content: "or call ";
+		}
+	}
+	@media (max-width: @lg) {
+		font-size: 13px;
+		top: 49px;
+		left: -53px;
+	}
+	@media (max-width: @md) {
+		font-size: 13px;
+		top: 39px;
+		left: -181px;
+	}
+}
+#uber-banner-background-image {
+	background-image: url(../images/uber/uber-car.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: right center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+  	right: -255px;
+	@media (max-width : @xl) {
+		background-image: url(../images/uber/uber-car-1170.png);
+  		right: -169px;
+	}
+	@media (max-width : @md) {
+		background-image: url(../images/uber/uber-car-768.png);
+ 		right: -149px;
+	}
+	@media (max-width : @sm) {
+		background-image: url(../images/uber/uber-car-480.png);
+		width: 100%;
+		position: relative;
+		top: auto;
+		left: auto;
+  		right: auto;
+		height: 0;
+		padding-bottom: 77.01%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+#uber-banner-button {
+	color: #fff;
+	font-size: 13.48px;
+	display: inline-block;
+	padding: 12px 30px 9px;
+	border-radius: 3px;
+	border: 2px solid  #1FBAD6;
+	background-color: #1FBAD6;
+  	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+	font-weight: bold;
+	position: absolute;
+	top: 58px;
+	right: 0px;
+	text-decoration: none;
+	letter-spacing: 0.005em;
+	cursor: pointer;
+	-webkit-transition: all 0.25s ease;
+	   -moz-transition: all 0.25s ease;
+			transition: all 0.25s ease;
+
+	&:hover {
+		cursor: pointer;
+		text-decoration: none;
+		background-color: lighten(#1FBAD6,10%);
+  		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+	}
+
+	@media (max-width: @xl) {
+		font-size: 11.78px;
+		top: 4px;
+  		right: -152px;
+  		padding: 12px 33px 10px;
+	}
+	@media (max-width: @lg) {
+		right: -76px;
+		padding: 9px 25px 8px;
+	}
+	@media (max-width: @md) {
+		padding: 4px 12px 5px;
+		position: relative;
+  		margin-top: 14px;
+		right: 0;
+		font-size: 10px;
+	}
+}
+
+#follow-us-bg {
+	@media (max-width: @md) {
+  		margin-top: -35px;
+	}
+	@media (max-width: @sm) {
+		margin-top: 0;
+	}
+}
